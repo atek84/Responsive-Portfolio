@@ -278,7 +278,7 @@ input[type=submit] {
 	#main-container {
 		width: 100%;
     padding: 20px;
-}
+  }
 
   #logo {
     margin-left: 20px;
@@ -297,11 +297,13 @@ input[type=submit] {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 40px;
+    clear: both;
   }
 
   .work {
     width: 50%;
   }
+
  } 
 
 @media screen and (max-width: 640px) {
@@ -321,6 +323,7 @@ input[type=submit] {
 
   #sidebar {
     margin-top: 40px;
+    clear: both; 
 	}
 
   nav {
